@@ -1,0 +1,724 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./../font/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_1;
+    src: url(./../font/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_2;
+    src: url(./../font/Montserrat-Bold.ttf);
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+    height: auto;
+    display: grid;
+    grid-template-rows: 796px 796px 796px 796px 796px 796px 796px 796px;
+}
+h1{
+    font-weight: bold;
+    font-family: Montserrat;
+    text-align: right;
+    font-size: 92pt;
+    word-spacing: 20px;
+    margin-bottom: 50px;
+}
+h2{
+    font-size: 60px;
+    font-family: Montserrat;
+}
+h3{
+
+}
+.khung1 {
+    background-image: linear-gradient(94deg, rgba(255, 144, 85, 0.234), rgba(255, 177, 53, 0.131)), url(./../img/banner.png);
+    background-size: 100%;
+    filter: contrast(135%);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 796px;
+}
+
+.icon_menu {
+    display: none;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 270px 1fr 240px;
+    background-color: #21243d;
+    height: 85px;
+}
+
+.top .logo {
+    text-align: right;
+}
+.top .logo img {
+    width: 220px;
+}
+.top nav ul {
+    text-align: center;
+    font-size: 15pt;
+    margin-left: 35px;
+    line-height: 85px;
+    font-family: Montserrat_1;
+}
+
+.top nav ul li {
+    padding: 0 35px;
+    display: inline-block;
+}
+
+.top nav ul li a {
+    text-decoration: none;
+    color: #d3d3d8;
+}
+
+.search {
+    line-height: 85px;
+    color: #fff;
+    font-size: 24px;
+    margin-right: 53px;
+    text-align: right;
+}
+
+.title {
+    color: #fff;
+    width: 690px;
+    margin-top: 141px;
+    padding-right: 12px;
+    padding-left: 61px;
+}
+
+.title h1 {
+    font-weight: bold;
+    font-family: Montserrat;
+    text-align: right;
+    font-size: 92pt;
+    word-spacing: 20px;
+    margin-bottom: 50px;
+}
+
+.title p {
+    width: 569px;
+    font-size: 28px;
+    text-align: justify;
+    font-family: Montserrat_1;
+    color: #d3d3d8;
+}
+
+.title button {
+    font-family: Montserrat_2;
+    width: 330px;
+    height: 66px;
+    text-align: center;
+    color: #fff;
+    background: #21243d;
+    margin-left: 0;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 18pt;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.khung2 {
+    width: 100%;
+    height: 796px;
+    background: #21243d;
+    background-image: url(./../img/khung2.png);
+    background-position-x: 0;
+    background-position-y: -30px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Montserrat;
+    color: #fff;
+}
+
+.khung2 .box1 {
+    width: 100%;
+    height: 244px;
+    text-align: center;
+    white-space: pre;
+}
+
+.khung2 .box1 h2 {
+    margin-top: 30px;
+    font-size: 60px;
+    line-height: 49px;
+}
+
+.khung2 .box1 p {
+    color: #d3d3d8;
+    font-size: 22px;
+    word-spacing: 2px;
+    margin-left: -80px;
+    font-family: Montserrat_1;
+}
+
+.khung2 .box2 {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 241px 241px 241px;
+    grid-gap: 136px;
+    padding: 0 205px 0 243px;
+    margin-top: 76px;
+}
+
+.khung2 .box2 .content img {
+    width: 241px;
+    height: 241px;
+    border-radius: 50%;
+}
+
+.khung2 .box2 .content h3 {
+    line-height: 70px;
+    font-size: 20px;
+}
+
+.khung2 .box2 .content p {
+    color: #d3d3d8;
+    font-family: Montserrat_1;
+    font-size: 16px;
+    text-align: center;
+}
+
+.khung3 {
+    height: 796px;
+    width: 100%;
+    background: #ffd17e;
+    background-image: url(./../img/khung3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 45px;
+    background-position-y: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.khung3 .left {
+    background: no-repeat;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.khung3 .left img {
+    border-radius: 50%;
+    width: 430px;
+    height: 430px;
+}
+
+.khung3 .right {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    line-height: 55px;
+    padding-right: 50px;
+}
+
+.khung3 .right h2 {
+    
+    font-weight: 900;
+}
+
+.khung3 .right p {
+    font-family: Montserrat_1;
+    font-size: 31px;
+    margin-top: 55px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.khung3 .right button {
+    font-family: Montserrat_2;
+    width: 330px;
+    height: 66px;
+    text-align: center;
+    color: #fff;
+    background: #21243d;
+    margin-left: 0;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 18pt;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.khung4 {
+    width: 100%;
+    height: 796px;
+    background: #21243d;
+    background-image: url(./../img/khung4.png);
+    background-position-y: 62px;
+    background-position-x: 89px;
+    background-repeat: no-repeat;
+    background-size: 1270px 802px;
+    font-family: Montserrat;
+    color: #fff;
+}
+
+.khung4 .box1 {
+    width: 100%;
+    height: 244px;
+    text-align: center;
+    padding-right: 80px;
+    white-space: pre;
+}
+
+.khung4 .box1 h2 {
+    margin-top: 43px;
+    font-size: 60px;
+    line-height: 49px;
+}
+
+.khung4 .box1 p {
+    color: #d3d3d8;
+    font-size: 22px;
+    word-spacing: 2px;
+    margin-left: -80px;
+    font-family: Montserrat_1;
+}
+
+.khung4 .box2 {
+    height: 284px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 136px;
+    padding: 0 200px 0 135px;
+    margin-top: 100px;
+}
+
+.khung4 .box2 .content {
+    text-align: center;
+    height: 284px;
+    width: 284px;
+    padding-top: 80px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Montserrat_2;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.khung6 {
+    width: 100%;
+    background-image: linear-gradient(0, rgb(33 36 61 / 92%), rgb(33 36 61 / 85%)), url(../img/anh5.png);
+    background-size: 100%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 150px 0 0 0;
+    filter: contrast(120%);
+}
+
+.khung6 img {
+    width: 244px;
+    height: 244px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+
+}
+
+.khung6 p {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    font-family: Montserrat_1;
+    font-size: 41px;
+    color: #fff;
+}
+
+.khung6 h2 {
+    font-family: Montserrat;
+    font-size: 42px;
+    color: #e1e1e1;
+    margin: 50px 0 0 0;
+}
+
+.khung5 {
+    background: #ffd27e;
+    background-image: url(../img/khung5.png);
+    display: grid;
+    color: #21243d;
+    grid-template-columns: 50% 50%;
+}
+
+.khung5 .left {
+    margin: 248px 0 0 0;
+    text-align: left;
+    padding: auto, 50px;
+    line-height: 55px;
+    padding-left: 135px;
+}
+
+.khung5 .left button {
+    font-family: Montserrat_2;
+    width: 330px;
+    height: 66px;
+    text-align: center;
+    color: #fff;
+    background: #21243d;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 18pt;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.khung5 .left h2 {
+    
+    font-weight: 900;
+}
+
+.khung5 .left p {
+    font-family: Montserrat_1;
+    font-size: 28px;
+    margin-top: 55px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.khung5 .right img {
+    text-align: center;
+    width: 467px;
+    height: 467px;
+    border-radius: 50%;
+    margin: 193px 130px;
+}
+
+.khung5 .right {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    line-height: 55px;
+    padding-right: 50px;
+}
+
+.khung7 {
+    background: #ffd17e;
+    background-image: url(../img/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding-top: 165px;
+}
+
+.khung7 h2 {
+    
+    color: #21243d;
+    margin-bottom: 50px;
+}
+
+.khung7 p {
+    font-family: Montserrat_1;
+    font-size: 27px;
+    color: #21243d;
+    width: 856px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.khung7 form {
+    width: 780px;
+    height: 65px;
+    margin: auto;
+    position: relative;
+}
+
+.khung7 form input {
+    width: 630px;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    padding: 5px 30px;
+    font-family: Montserrat_1;
+    font-size: 20px;
+    color: #21243d;
+}
+
+form button {
+    background-color: #21243d;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    position: absolute;
+    width: 220px;
+    height: 65px;
+    top: 0;
+    border: none;
+    right: 50px;
+    border-radius: 40px;
+}
+
+.footer {
+    background: #111111;
+    display: grid;
+    grid-template-columns: 3fr 248px 248px 144px;
+    padding: 250px 79px 0 90px;
+    font-family: Montserrat_1;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.footer .a h2 {
+    font-size: 26px;
+    font-weight: 560;
+    margin: 0 0 35px 0;
+}
+
+.footer .a p {
+    font-size: 22px;
+    word-break: keep-all;
+    width: 458px;
+    text-align: left;
+}
+
+.footer .a .icon {
+    height: 50px;
+    margin-top: 20px;
+}
+
+.footer .a .icon img {
+    width: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer .b h2 {
+    font-size: 26px;
+    font-weight: 560;
+    margin: 0 0 35px 0;
+}
+
+.footer .b a {
+    font-size: 22px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px){
+    .container{
+        display: block;
+        height: auto;
+        width: 100%
+    }
+    .khung1, .khung2, .khung3, .khung4, .khung5, .khung6, .khung7, .footer{
+        max-width: 768px;
+        height: auto;
+        background-size: auto;
+        background-position-x: center;
+    }
+    .top{
+        height: 85px;
+        display: grid;
+        grid-template-columns: 250px 1fr 1fr 1fr;
+    }
+    .top nav ul{
+        display: none;
+    }
+    .icon_menu{
+        display: inline;
+        color: #fff;
+        line-height: 85px;
+        font-size: 40px;
+    }
+    .search{
+        font-size: 40px;
+        margin-left: 250px;
+    }
+    .top.logo img{
+        width: 100%;
+    }
+    .title h1{
+        font-size: 60px;
+        text-align: left;
+        word-spacing: -5px;
+    }
+    .title p{
+        font-size: 20px;
+    }
+    .title button{
+        margin-bottom: 20px;
+    }
+    .khung2 .box2{
+        display: inline;
+        font-size: xxx-large;
+    }
+    .khung2 .box2 .content{
+        padding: 20px;
+    }
+    .khung2 .box2 .content h3{
+        font-size: 30px;
+    }
+    .khung2 .box1 h2{
+        font-size: 50px;
+        margin-bottom: -10px;
+    }
+    .khung3{
+        display: block;
+        padding: 50px 40px;
+    }
+    .khung3 .left img{
+        width: 300px;
+        height: 300px;
+    }
+    .khung3 .right h2{
+        font-size: 40px;
+    }
+    .khung3 .right p{
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    .khung4 .box1{
+        padding-right: 0;
+    }
+    .khung4 .box1 h2{
+        font-size: 50px;
+    }
+    .khung4 .box2{
+        display: inline;
+        font-size: xxx-large;
+    }
+    .content{
+        margin:0 auto 50px;
+    }
+    .khung5{
+        flex-direction: column-reverse;
+    }
+    .khung5 .right{
+        text-align: center;
+    }
+    .khung5 .right img{
+        width: 300px;
+        height: 300px;
+        margin: 0 50px 0 0;
+    }
+    .khung5 .left{
+        padding: 50px 30px;
+        display: inline;
+        text-align: left;
+        margin-left: 0;
+    }
+    .khung5 .left h2{
+        font-size: 40px;
+    }
+    .khung5 .left p{
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    .khung6 p{
+        font-size: 18px;
+        width: 80%;
+        margin-bottom: -20px;
+    }
+    .khung6 h2{
+        font-size: 40px;
+        padding:0 0 20px 0;
+    }
+    .khung7{
+        padding: 20px 0 50px 0;
+        
+    }
+    .khung7 h2{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    .khung7 p{
+        font-size: 24px;
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .khung7 form input{
+        width: 50%;
+    }
+    .khung7 form{
+        width: 100%;
+    }
+    .khung7 form button{
+        width: 30%;
+        margin-right: 10%;
+    }
+    .footer{
+        display: block;
+        text-align: center;
+        padding: 40px 40px;
+        width: 100%;
+    }
+    .footer .a .icon,.footer .a p, .b p {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        margin: 0 0 10px 0;
+    }
+    .b{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .container{
+        max-width: 414px;
+        margin: auto;
+    }
+    .khung1 ,.khung2 ,.khung3 .khung4, .khung5, .khung6, .khung7, .footer{
+        width: 414px;
+    }
+    .top{
+        height: 85px;
+        display: grid;
+        grid-template-columns: 50px 1fr 1fr 1fr;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 10px;
+    }
+    .title p{
+        width: 100%;
+ 
+    }
+    .khung4 .box1 p{
+        font-size: 14px;
+        width: 414px;
+        text-align: center;
+    }
+    .khung2 .box1 p{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+    .khung5 {
+        display: flex;      
+    }
+    .khung5 .left{
+        justify-content: flex-start;
+        margin: 0;
+    }
+    .khung5>.right{
+        padding: 50px 50px 0 50px;
+    }
+}
